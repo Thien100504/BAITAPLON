@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ```python
 schedule.every().day.at("06:00").do(run_task)  # Chạy lúc 6h sáng
-schedule.every().day.at("17:46").do(run_task)  # Chạy lúc 12h trưa
+schedule.every().day.at("12:00").do(run_task)  # Chạy lúc 12h trưa
 ```
 
 ## Ghi chú
