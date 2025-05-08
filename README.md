@@ -61,7 +61,7 @@ pip install -r requirements.txt
    ```
    python kiemtra.py
    ```
-3. Chương trình sẽ tự động chạy theo lịch đã cài đặt (6:00 sáng và 17:46 chiều hàng ngày)
+3. Chương trình sẽ tự động chạy theo lịch đã cài đặt (6:00 sáng và 12h trưa hàng ngày)
 
 ## Tùy chỉnh lịch chạy
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ```python
 schedule.every().day.at("06:00").do(run_task)  # Chạy lúc 6h sáng
-schedule.every().day.at("17:46").do(run_task)  # Chạy lúc 5h46 chiều
+schedule.every().day.at("17:46").do(run_task)  # Chạy lúc 12h trưa
 ```
 
 ## Ghi chú
